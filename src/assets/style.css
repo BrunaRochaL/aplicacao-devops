@@ -1,0 +1,26 @@
+body {
+  background-image: url("../static/images/background.png");
+  background-size: cover; /*
+    Ajusta o tamanho da imagem para cobrir todo o body */
+  display: flex; /*layout
+    flexível */
+  justify-content: center; /* Centraliza horizontalmente os elementos
+    filhos */
+  align-items: center;
+  margin-top: 200px;
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 100px;
+  animation: fadeIn 8s ease forwards; /* Aplica a
+    animação de aparecimento ao texto */
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
